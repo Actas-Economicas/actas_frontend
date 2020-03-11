@@ -198,8 +198,8 @@ class UnalCanvas extends Component {
             </div>
             <div id="bs-navbar" className="navbar-collapse collapse navigation">
               <div className="site-url">
-                <a href="https://www.ingenieria.bogota.unal.edu.co/actas/">
-                  ingenieria.bogota.unal.edu.co/actas/
+                <a href="http://fce.unal.edu.co/actas/">
+                  http://fce.unal.edu.co/actas/
                 </a>
               </div>
               <div className="buscador">
@@ -227,7 +227,7 @@ class UnalCanvas extends Component {
                 </div>
                 <div className="btn-group">
                   <a
-                    href="https://ingenieria.bogota.unal.edu.co/es/dependencias/vicedecanatura-academica/autoevaluacion-y-acreditacion.html"
+                    href="http://fce.unal.edu.co"
                     className="btn btn-default dropdown-toggle"
                   >
                     ¿Quienes somos?
