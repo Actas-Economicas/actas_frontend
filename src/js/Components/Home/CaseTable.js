@@ -366,6 +366,9 @@ class CaseTable extends React.Component {
                 this.date_diff_indays(moment().format('MM/DD/YYYY'), record.date)}.
             </div>
             <div>
+              <b>Usuario encargado:</b> { record.user }.
+            </div>
+            <div>
               <b>ID del caso:</b> {record.id}.
             </div>
           </Columns>
