@@ -348,7 +348,7 @@ class CaseTable extends React.Component {
         columns={localStorage.getItem("type") !== "secretary" ? columns : columnsSecretary }
         bordered={true}
         expandedRowRender={record => (
-          <Columns gap={"0px"} columns={3}>
+          <Columns gap={"0px"} columns={2}>
             <div>
               <b>Fecha de radicación:</b> {record.date}.
             </div>
@@ -370,6 +370,9 @@ class CaseTable extends React.Component {
             </div>
             <div>
               <b>ID del caso:</b> {record.id}.
+            </div>
+            <div>
+              <b>Fecha de registro del caso:</b> {record.date_stamp}.
             </div>
           </Columns>
         )}
